@@ -1,5 +1,5 @@
 import React from 'react'
-import { Spotlight } from './ui/Spotlight'
+// import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import LitUpBtn from './ui/LitUpBtn'
 import { FaLocationArrow } from 'react-icons/fa6'
@@ -8,7 +8,7 @@ import { Cover } from './ui/Cover'
 function Hero() {
   return (
     <div className='pb-30 pt-36'>
-      <div>
+      {/* <div>
         <Spotlight
           className='-top-40 -left-10 md:-left-32 md: -top-20 h-screen'
           fill='white'
@@ -18,7 +18,7 @@ function Hero() {
           fill='purple'
         />
         <Spotlight className='top-28 left-80 h-[80vh] w-[50vh]' fill='blue' />
-      </div>
+      </div> */}
 
       {/* <div className='h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0'>
         <div className='absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]' />
