@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      'Frontend Developer with a passion for building products, solving complex problems, and driving innovation',
+      'Crafting products, solving complex problems, and driving innovation',
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',

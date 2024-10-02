@@ -1,13 +1,15 @@
 'use client'
 
 import { cn } from '../../../utils/cn'
+import Link from 'next/link'
 import { BackgroundGradientAnimation } from './GradientBg'
 import { GlobeDemo } from './GridGlobe'
 import { useState } from 'react'
 import animationData from '../../../data/confetti.json'
 import Lottie from 'react-lottie'
-import { IoCopyOutline } from 'react-icons/io5'
+import { IoCopyOutline, IoDownloadOutline } from 'react-icons/io5'
 import MagicBtn from './MagicBtn'
+import { CiLinkedin, CiMail } from 'react-icons/ci'
 
 export const BentoGrid = ({
   className,
@@ -139,7 +141,7 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className='mt-5 relative'>
-              <div className={`absolute -bottom-9 right-0`}>
+              {/* <div className={`absolute -bottom-9 right-0`}>
                 <Lottie
                   options={{
                     loop: copied,
@@ -152,14 +154,32 @@ export const BentoGridItem = ({
                   height={200}
                   width={200}
                 />
-              </div>
-              <MagicBtn
-                title={copied ? 'Email Copied' : 'Copy my email'}
+              </div> */}
+              {/* <MagicBtn
+                title='Resume'
                 icon={<IoCopyOutline />}
                 position='left'
                 otherClasses='`bg-[#161a31]'
                 handleClick={handleCopy}
-              />
+              /> */}
+              <div className='inline-flex justify-center items-center'>
+                <a href='mailto:davisnguyen98@gmail.com'>
+                  <CiMail className='text-3xl mr-4' />
+                </a>
+                <Link href='http://www.google.com' target='_blank'>
+                  <CiLinkedin className='text-3xl mr-4' />
+                </Link>
+                <Link
+                  href='/docs/Davis_Resume_SWE_2024v3.pdf'
+                  target='_blank'
+                  download
+                >
+                  {' '}
+                  <p className='inline-flex justify-center items-center'>
+                    Resume <IoDownloadOutline className='text-3xl' />{' '}
+                  </p>
+                </Link>
+              </div>
             </div>
           )}
         </div>
