@@ -167,7 +167,10 @@ export const BentoGridItem = ({
                 <a href='mailto:davisnguyen98@gmail.com'>
                   <CiMail className='text-3xl mr-4' />
                 </a>
-                <Link href='http://www.google.com' target='_blank'>
+                <Link
+                  href='https://www.linkedin.com/in/davis-nguyen-98345720b/'
+                  target='_blank'
+                >
                   <CiLinkedin className='text-3xl mr-4' />
                 </Link>
                 <Link href='https://github.com/DarcXnite' target='_blank'>
