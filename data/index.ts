@@ -89,20 +89,20 @@ export const projects = [
     iconLists: ['js.svg', 'jq.svg'],
     link: 'https://darcxnite.github.io/wordle-clone',
   },
-  {
-    id: 3,
-    title: 'Star Wars Character Sheets',
-    des: 'A passion project created using the MERN stack to practice data manipulation. This project really dives into creating a character based on the table-top game Star Wars Force & Destiny by flight games.',
-    img: '/p1.svg',
-    iconLists: [
-      'mongodb.svg',
-      '/exjs.svg',
-      '/re.svg',
-      'nodejs.svg',
-      'tail.svg',
-    ],
-    link: 'https://star-wars-sheets.herokuapp.com/',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Star Wars Character Sheets',
+  //   des: 'A passion project created using the MERN stack to practice data manipulation. This project really dives into creating a character based on the table-top game Star Wars Force & Destiny by flight games.',
+  //   img: '/p1.svg',
+  //   iconLists: [
+  //     'mongodb.svg',
+  //     '/exjs.svg',
+  //     '/re.svg',
+  //     'nodejs.svg',
+  //     'tail.svg',
+  //   ],
+  //   link: 'https://star-wars-sheets.herokuapp.com/',
+  // },
 ]
 
 export const testimonials = [

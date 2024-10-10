@@ -10,6 +10,7 @@ import Lottie from 'react-lottie'
 import { IoCopyOutline, IoDownloadOutline } from 'react-icons/io5'
 import MagicBtn from './MagicBtn'
 import { CiLinkedin, CiMail } from 'react-icons/ci'
+import { FaGithub } from 'react-icons/fa6'
 
 export const BentoGrid = ({
   className,
@@ -169,13 +170,16 @@ export const BentoGridItem = ({
                 <Link href='http://www.google.com' target='_blank'>
                   <CiLinkedin className='text-3xl mr-4' />
                 </Link>
+                <Link href='https://github.com/DarcXnite' target='_blank'>
+                  <FaGithub className='text-2xl mr-4' />
+                </Link>
                 <Link
                   href='/docs/Davis_Resume_SWE_2024v3.pdf'
                   target='_blank'
                   download
                 >
                   {' '}
-                  <p className='inline-flex justify-center items-center'>
+                  <p className='inline-flex justify-center items-center '>
                     Resume <IoDownloadOutline className='text-3xl' />{' '}
                   </p>
                 </Link>
