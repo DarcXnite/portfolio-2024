@@ -4,6 +4,7 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import LitUpBtn from './ui/LitUpBtn'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { Cover } from './ui/Cover'
+import { BackgroundBeamsWithCollision as BackgroundBeams } from './ui/BackgroundBeams'
 
 function Hero() {
   return (
@@ -24,31 +25,33 @@ function Hero() {
         <div className='absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]' />
       </div> */}
 
-      <div className='flex justify-center relative my-20 z-10'>
-        <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-          <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-            Welcome to my website
-          </h2>
+      <BackgroundBeams className='bg-black-100 rounded-3xl mb-4'>
+        <div className='flex justify-center relative my-20 z-10'>
+          <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
+            <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
+              Welcome to my website
+            </h2>
 
-          <TextGenerateEffect
-            className='text-center text-[40px] md:text-5xl lg:text-6xl'
-            words='Hi, My Name is Davis Nguyen'
-          />
-          <div className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            I&apos;m a developer based in{' '}
-            <Cover>
-              <span className='text-cyan-400'>Chicago</span>
-            </Cover>
-          </div>
-          <a href='#about'>
-            <LitUpBtn
-              title='Projects'
-              icon={<FaLocationArrow />}
-              position='right'
+            <TextGenerateEffect
+              className='text-center text-[40px] md:text-5xl lg:text-6xl'
+              words='Hi, My Name is Davis Nguyen'
             />
-          </a>
+            <div className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+              I&apos;m a developer based in{' '}
+              <Cover>
+                <span className='text-cyan-400'>Chicago</span>
+              </Cover>
+            </div>
+            <a href='#about'>
+              <LitUpBtn
+                title='Projects'
+                icon={<FaLocationArrow />}
+                position='right'
+              />
+            </a>
+          </div>
         </div>
-      </div>
+      </BackgroundBeams>
     </div>
   )
 }
