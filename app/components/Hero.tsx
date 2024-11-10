@@ -3,7 +3,6 @@ import React from 'react'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import LitUpBtn from './ui/LitUpBtn'
 import { FaLocationArrow } from 'react-icons/fa6'
-import { Cover } from './ui/Cover'
 import { BackgroundBeamsWithCollision as BackgroundBeams } from './ui/BackgroundBeams'
 
 function Hero() {
@@ -38,9 +37,7 @@ function Hero() {
             />
             <div className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
               I&apos;m a developer based in{' '}
-              <Cover>
-                <span className='text-cyan-400'>Chicago</span>
-              </Cover>
+              <span className='text-cyan-400'>Chicago</span>
             </div>
             <a href='#about'>
               <LitUpBtn
