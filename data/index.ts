@@ -108,33 +108,15 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      'I had the pleasure of working with Davis Nguyen during the year 23’ Q1 Internship cohort. Straight away he showcased his initiative and leadership qualities by collaborating with the entire group of Interns, as well as offering trainings to those who were further behind. He completed a number of tasks to contribute to our flagship product, MIKROS (https://developer.tatumgames.com/). MIKROS is an all-in-one mobile analytics platform that is focused on helping game developers succeed by making them more data driven. He adapted to our Agile work environment and process and took ownership of tickets by self-assigning and executing. I highly recommend Davis Nguyen for any technical role. He demonstrated that he has a solid understanding of coding principles and standards. He was easily teachable and a fast learner. He always came with a positive attitude, and I know he will be an excellent fit for any professional Team.',
+    name: 'Leonard Tatum',
+    title: 'CEO & Founder of Tatum Games',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      "Davis was my student for the software engineering immersive cohort that graduated in July 2022. From the start of class, Davis showed strong aptitude for code and resourcefulness. Davis developed strong skills during the course, and implemented great UI design, responsiveness, and overall quality. He played a significant role in assisting others and showing strong leadership. A huge part of Davis' time with us showed us his strengths and experience in building applications from scratch, and solving complex problems. Davis can seemingly do anything if given the right nudge, and I  highly recommend him for any junior or entry level role.",
+    name: 'Weston Bailey',
+    title: 'General Assembly Lead Instructor',
   },
 ]
 
