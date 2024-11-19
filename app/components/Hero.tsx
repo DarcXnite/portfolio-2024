@@ -39,7 +39,7 @@ function Hero() {
               I&apos;m a developer based in{' '}
               <span className='text-cyan-400'>Chicago</span>
             </div>
-            <a href='#about'>
+            <a href='#projects'>
               <LitUpBtn
                 title='Projects'
                 icon={<FaLocationArrow />}
