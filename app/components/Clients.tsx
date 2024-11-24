@@ -2,7 +2,7 @@ import React from 'react'
 import { MovingCards } from './ui/MovingCards'
 import { companies, testimonials } from '../../data'
 
-function Clients() {
+const Clients = () => {
   return (
     <div id='testimonials' className='py-20'>
       <h1 className='heading'>
@@ -10,6 +10,7 @@ function Clients() {
       </h1>
       <div className='flex flex-col items-center max-lg:mt-10'>
         <MovingCards items={testimonials} direction='right' speed='slow' />
+        {/* this is for logos and companies ive worked for */}
         {/* <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10'>
           {companies.map(({ id, img, name, nameImg }) => (
             <div key={id} className='flex md:max-w-60 max-w-32 gap-2'>

@@ -5,7 +5,7 @@ import LitUpBtn from './ui/LitUpBtn'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { BackgroundBeamsWithCollision as BackgroundBeams } from './ui/BackgroundBeams'
 
-function Hero() {
+const Hero = () => {
   return (
     <div className='pb-30 pt-36'>
       {/* <div>
